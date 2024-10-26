@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class calculadora {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        ArrayList<Integer> numeros = new ArrayList<>();
+        ArrayList<Integer> numeros;
         System.out.println("Calculadora\n");
         int opc = 0;
         while (opc != 4){
