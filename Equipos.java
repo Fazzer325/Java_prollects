@@ -10,7 +10,7 @@ public class Equipos {
                 "Jugador 8","Jugador 9","Jugador 10",};
 
         ArrayList<String> Premiados = new ArrayList<>();
-        int aleatorio = 0;
+        int aleatorio;
 
         //Jugadores Premiados
         for (int i = 0;i<3;i++){
