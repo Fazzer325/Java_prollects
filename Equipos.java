@@ -26,7 +26,7 @@ public class Equipos {
             aleatorio = (int) (random() * 10);
             Premiados.add((equipos[aleatorio]));
         }
-        System.out.println("Equipos Premiados: ");
+        System.out.println("\nEquipos Premiados: ");
         for (String premiados : Premiados) System.out.println(premiados);
     }
 }
